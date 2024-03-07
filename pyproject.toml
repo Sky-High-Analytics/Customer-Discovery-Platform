@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "customer-discovery-platform"
+version = "0.1.0"
+description = ""
+authors = ["Darren Colby <dscolby17@gmail.com>"]
+readme = "README.md"
+packages = [{include = "customer_discovery_platform"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.9"
+langchain-community = "^0.0.24"
+streamlit = "^1.31.1"
+sentence-transformers = "^2.4.0"
+faiss-cpu = "^1.7.4"
+transformers = "^4.38.1"
+python-dotenv = "^1.0.1"
+openai = "^1.13.3"
+tiktoken = "^0.6.0"
+langchain-openai = "^0.0.8"
+flask = "^3.0.2"
+streamlit-oauth = "^0.1.8"
+st-oauth = {git = "https://github.com/sfc-gh-bhess/st_oauth.git"}
+streamlit-authenticator = "^0.3.1"
+google-api-python-client = "^2.121.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+pydrive2 = "^1.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
